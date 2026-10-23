@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(43, 24, 11);
+}
+
+
+nav{
+  background-color: rgb(219, 145, 145);
+  width: 650px;
+  height: auto;
+  padding:5px;
+  border: 2px solid rgb(214, 29, 29);
+  border-radius: 25px;
+  overflow: hidden;
+  margin:0 auto;
+  animation-name: effict;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+
+@keyframes effict {
+  0%
+  {
+    background-color: rgb(104, 104, 19);
+
+  }
+
+  100%
+  {
+    background-color: rgb(88, 20, 166);
+
+  }
+
+  
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul a{
+  color: white;
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+  padding:7px;
+  border:2px solid rgb(22, 1, 1);
+  border-radius: 50%;
+   transition: all 3s ;
+ 
+  
+ 
+}
+
+ nav ul a:hover{
+  border:50%;
+
+
+ }
+
+
+
+
+.btn1:hover{
+  background-color: chocolate;
+  font-style: italic;
+  font-size: 25px;
+  border-color: rgb(232, 6, 6);
+ 
+
+}
+
+.btn2:hover{
+  background-color: chocolate;
+  font-style: italic;
+  font-size: 12px;
+  border:4px solid rgb(176, 141, 141);
+}
